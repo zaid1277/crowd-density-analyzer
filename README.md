@@ -54,21 +54,18 @@ Key implementation details:
 
 The model filters detections specifically to the “person” class to ensure targeted crowd analysis.
 
----
+## Project Structure
 
-## System Architecture
+```
 crowd-density-analyzer/
-│
 ├── src/
-│ ├── app.py # Streamlit application (UI layer)
-│ └── crowd_analyzer.py # Core detection and analytics pipeline
-│
-├── videos/ # Input video storage
-├── outputs/ # Generated analysis outputs
+│   ├── app.py
+│   └── crowd_analyzer.py
+├── videos/
+├── outputs/
 ├── requirements.txt
 └── README.md
-
----
+```
 
 ## End-to-End Workflow
 1. User uploads a video through the Streamlit interface
