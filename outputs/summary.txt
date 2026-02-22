@@ -1,0 +1,17 @@
+Crowd Density Analyzer Summary
+--------------------------------
+Video: videos/video.mp4
+Model: yolov8n.pt
+Confidence: 0.35
+
+Average crowd (smoothed): 27.64
+Peak crowd (smoothed): 34.60 at 00:03
+Crowded threshold: >= 15
+
+Crowded segments (approx):
+  00:00 to 00:13
+
+Outputs:
+  Annotated video: outputs\annotated.mp4
+  Counts CSV:      outputs\crowd_data.csv
+  Heatmap image:   outputs\heatmap.png
